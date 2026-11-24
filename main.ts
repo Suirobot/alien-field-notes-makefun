@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "Earth: 4/5 stars. Beautiful oceans, friendly bipeds, but they queue inside metal boxes they own for hours daily. Would abduct again.";
+  "Earth review: 4/5 stars. Stunning oceans, kind locals, but the inhabitants pay to sit in traffic inside metal boxes they own. Would abduct again.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
